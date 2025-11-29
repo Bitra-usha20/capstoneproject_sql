@@ -11,11 +11,11 @@ Your mission is simple but challenging:
 👉 **Find out who the killer is, where and when the crime took place, and how it happened — using only SQL queries.**
 ## 2. Database Schema & Dataset
 tables:
-1.employees:employee_id, name, department, role
-2.keycard_logs: log_id, employee_id, room, entry_time, exit_time 
- 3.calls: call_id, caller_id, receiver_id, call_time, duration_sec 
-4.alibis: alibi_id, employee_id, claimed_location, claim_time
-5.evidence: evidence_id, room, description, found_time
+- 1.employees:employee_id, name, department, role
+- 2.keycard_logs: log_id, employee_id, room, entry_time, exit_time 
+ - 3.calls: call_id, caller_id, receiver_id, call_time, duration_sec 
+- 4.alibis: alibi_id, employee_id, claimed_location, claim_time
+- 5.evidence: evidence_id, room, description, found_time
 ## 3.Investigation Objectives
 1.Identify where and when the crime happened
 2.Analyze who accessed critical areas at the time
